@@ -1,0 +1,29 @@
+Instrucciones para compilar:
+Programas necesarios:
+
+gcc	  (Compilador de C)
+python	  (Interprete de python)
+make	  (Utilidad de compilacion)
+doxygen	  (Solo si se quiere generar documentacion)
+
+Comandos:
+Para compilar:
+make
+
+Para compilar documentacion:
+make docs
+
+Para limpiar la compilacion:
+make clean
+
+
+Para correr los algoritmos
+./algoritmo_heuristica.npuzzle estadoinicial
+Donde:
+algoritmo es {astar,idastar}
+heuristica es {cero,manhattan}
+npuzzle es {8puzzle,15puzzle}
+estadoinicial se escribe con comas sin separacion
+
+ejemplo:
+./idastar_manhattan.15puzzle 13,8,14,3,9,1,0,7,15,5,4,10,12,2,6,11
