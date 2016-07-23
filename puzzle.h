@@ -87,7 +87,7 @@ int heuristica(const puzzle *p);
  * \param p apuntador a puzzle
  * \return si el \a p es objetivo
  */
-inline int objetivo(const puzzle *p);
+int objetivo(const puzzle *p);
 
 /**
  * Imprime el tablero de un puzzle
